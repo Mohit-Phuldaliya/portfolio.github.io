@@ -5,242 +5,483 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Mohit_Phuldaliya_Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Mohit_Phuldaliya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+    <!-- defer attribute use ? -->
 </head>
 
 <body>
-    <header class="container">
-        <nav class="flex">
-            <div class="right flex">
-                <a href=""><img class="mohit" src="img/me3.jpg" alt="mohit's pic"></a>
-                <label ><a class="mo" href="">Mohit</a></label>
-            </div>
-            <div class="left">
-                <ul class="flex">
-                    <a href="#homeid">
-                        <li>Home</li>
-                    </a>
-                    <a href="#aboutid">
-                        <li>About</li>
-                    </a>
-                    <a href="#page-1">
-                        <li>Resume</li>
-                    </a>
-                    <a href="#projectid">
-                        <li>Projects</li>
-                    </a>
-                    <a href="">
-                        <li>Contact</li>
-                    </a>
-                    <a href="https://www.linkedin.com/in/mohit-phuldaliya-58aba7217?" target="_blank"><img class="icon"
-                            src="img/linkedin.png" alt=""></a>
-                    <a href="https://leetcode.com/include_mohit/" target="_blank"><img class="icon"
-                                src="img/leetcode.png" alt=""></a>
-                    <a href="mailto:phuldaliyamohit@gmail.com" target="_blank"><img class="icon" src="img/mail.png"
-                            alt=""></a>
-                    <a href="https://github.com/Mohit-Phuldaliya" target="_blank"><img class="icon" src="img/github.png"
-                            alt=""></a>
-                    <a href="https://www.instagram.com/phuldaliya_mohit/?hl=en" target="_blank"><img class="icon"
-                            src="img/instagram.png" alt=""></a>
-                </ul>
-            </div>
+    <header class="header">
+        <img src="images/navpic.jpg" alt="MohitPic" class="navpic">
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="#" class="navbar-link home-link">Home</a></li>
+                <li><a href="#" class="navbar-link about-link">About</a></li>
+                <li><a href="#" class="navbar-link resume-link">Resume</a></li>
+                <!-- <li><a href="#" class="navbar-link portfolio-link">Portfolio</a></li> -->
+                <li><a href="#" class="navbar-link projects-link">Projects</a></li>
+                <li><a href="#" class="navbar-link contact-link">Contact</a></li>
+                <a href="https://www.linkedin.com/in/mohit-phuldaliya-58aba7217?" target="_blank"><img class="icon"
+                        src="images/linkedin.png" alt="linkedin_icon"></a>
+                <a href="https://leetcode.com/include_mohit/" target="_blank"><img class="icon"
+                        src="images/leetcodeblack.png" alt="leetcode_icon"></a>
+                <a href="mailto:phuldaliyamohit@gmail.com" target="_blank"><img class="icon" src="images/mail.png"
+                        alt="email_icon"></a>
+                <a href="https://github.com/Mohit-Phuldaliya" target="_blank"><img class="icon" src="images/github.png"
+                        alt="github_icon"></a>
+                <a href="https://www.instagram.com/phuldaliya_mohit/?hl=en" target="_blank"><img class="icon"
+                        src="images/instagram.png" alt="insta_icon"></a>
+            </ul>
         </nav>
     </header>
-    <section id="homeid" class="section1 flex">
-        <div class="flex justify-column">
-            <div class="hey">
-                HEY! I AM
+
+    <!-----------
+        Main Hero Section start
+     ------------->
+    <main class="bk">
+        <section class="section-hero  section">
+            <div class="overlay"></div>
+            <div class="container ">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">HEY! I AM</p>
+                    <h1 class="hero-heading">Mohit Phuldaliya</h1>
+                    <p class="hero-para">I'm a Programmer, Web Developer & ML Enthusiast</p>
+                    <div>
+                        <a href="#" class="btn hireme-btn">Hire me</a>
+                    </div>
+                </div>
+                <!-- hero section right side -->
+                <!-- <div class="section-hero-image">
+                    <img src="images/programming2.jpg" alt="this me mohit phuldaliya" class="hero-img">
+                </div> -->
             </div>
-            <div class="name">
-                Mohit Phuldaliya
+        </section>
+    </main>
+
+    <!-----------
+        About Section start
+     ------------->
+
+    <section class="section-biodata">
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img src="images/me.jpeg" alt="aboutimage">
             </div>
-            <div class="dev">I'm a Programmer & Web Developer.</div>
-        </div>
-    </section>
-    <section id="aboutid" class="about flex">
-        <div class="justify-column">
-            <img src="img/me.jpeg" alt="">
-        </div>
-        <div class="justify-column">
-            <div>
-                <div class="a1 aboutme">About Me</div>
-            </div>
-            <div class="a1 b1right">I am a 3rd year undergrad at MBM University Jodhpur</div>
-            <div class="flex a1 aboutcontent">
+            <!-- bio right side data -->
+            <div class="bio-data">
+                <h2 class="common-heading">About Me</h2>
+                <p>I am a 3rd year undergrad at MBM University Jodhpur</p>
+                <br />
+                <div class="bio-data-stats">
+                    <div class="flex bio">
+                        <div>
+                            <div class="b1">Name:-</div>
+                            <div class="b1">Date of birth:-</div>
+                            <div class="b1">Address:-</div>
+                            <div class="b1">Zip code:-</div>
+                            <div class="b1">Email:-</div>
+                            <div class="b1">GitHub:-</div>
+                            <div class="b1">Phone:-</div>
+                        </div>
+                        <div>
+                            <div class="b1">Mohit Phuldaliya</div>
+                            <div class="b1">December 8, 2002</div>
+                            <div class="b1">Jodhpur, Rajasthan</div>
+                            <div class="b1">342005</div>
+                            <div class="b1"><a href="mailto:phuldaliyamohit@gmail.com">phuldaliyamohit@gmail.com</div>
+                            </a>
+                            <div class="b1"><a href="https://github.com/Mohit-Phuldaliya">@Mohit-Phuldaliya</a></div>
+                            <div class="b1">+91-6378669887</div>
+                        </div>
+                    </div>
+                </div>
                 <div>
-                    <div class="b1 b1left">Name:</div>
-                    <div class="b1 b1left">Date of birth:</div>
-                    <div class="b1 b1left">Address:</div>
-                    <div class="b1 b1left">Zip code:</div>
-                    <div class="b1 b1left">Email:</div>
-                    <div class="b1 b1left">GitHub:</div>
-                    <div class="b1 b1left">Phone:</div>
-                </div>
-                <div class="b1rightpad">
-                    <div class="b1 b1right">Mohit Phuldaliya</div>
-                    <div class="b1 b1right">December 8, 2002</div>
-                    <div class="b1 b1right">Jodhpur, Rajasthan</div>
-                    <div class="b1 b1right">342005</div>
-                    <div class="b1 b1right"><a href="">phuldaliyamohit@gmail.com</div></a>
-                    <div class="b1 b1right"><a href="">@Mohit-Phuldaliya</a></div>
-                    <div class="b1 b1right">+91-6378669887</div>
+                    <a href="#" class="btn resume-btn">resume</a>
                 </div>
             </div>
-            <a class="res" href=""><span>RESUME</span></a>
+
         </div>
     </section>
-    <section class="section2 flex">
-        <div class="leftsidelist">
-            <ul>
-                <li><a href="#page-1">Education</a></li>
-                <li><a href="#page-2">Experience</a></li>
-                <li><a href="#page-3">Skills</a></li>
-                <li><a href="#page-4">Extra Curricular</a></li>
-            </ul>
-        </div>
-        <div class="rightsideallcont">
-            <div class="flex flexColumn">
-                <span id="page-1" class="eduhead">Education</span>
-                <div class="gap flex flexColumn">
-                    <span class="date">2020-2024 (expected)</span>
-                    <span class="degree">Bachelor of Engineering in Electrical Engineering</span>
-                    <span class="organisation">Mugneeram Bangur Memorial University, Jodhpur</span>
-                    <span class="b1right">A State University established by the Government of Rajasthan in September, 2021 by upgrading the erstwhile M.B.M. Engineering College which is one of the oldest engineering colleges in India (established in August, 1951). The university boasts of its high academic & technical standards.</span>
-                    <span class=" percent b1right">CGPA:8.28/10.00</span>
-                </div>
-                <div class="gap flex flexColumn">
-                    <span class="date">2018-2020</span>
-                    <span class="degree">Higher Secondary Education</span>
-                    <span class="organisation">Central Academy Jodhpur Cantt</span>
-                    <span class="b1right">Central Board of Secondary Education (CBSE) curriculum was followed. Subjects
-                        taught were Maths, Physics, Chemistry, English.</span>
-                    <span class=" percent b1right">Percentage : 82.2%</span>
-                </div>
-                <div class="gap flex flexColumn">
-                    <span class="date">Till 2018</span>
-                    <span class="degree">Secondary Education</span>
-                    <span class="organisation">Kendriya Vidyalaya BSF Jodhpur</span>
-                    <span class="b1right">Central Board of Secondary Education (CBSE) curriculum was followed.</span>
-                    <span class="percent b1right">Percentage : 78.8%</span>
-                </div>
+
+    <!-----------
+        work Section start
+    ------------->
+
+    <section class="section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="1000">0+</h2>
+                <p>LeetCode Questions Solved</p>
             </div>
-            <hr>
-            <div class="flex flexColumn">
-                <span id="page-2" class="eduhead">Experience</span>
-                <div class=" gap flex flexColumn">
-                    <span class="date">2018-2022 (expected)</span>
-                    <span class="degree">Bachelor of Technology in Mechanical Engineering</span>
-                    <span class="organisation">Indian Institute of Technology, Jodhpur</span>
-                    <span class="b1right">IIT Jodhpur is one of the premier technological institute of India committed
-                        to technological
-                        thought and action to benefit the economic development of India.</span>
-                    <span class="percent b1right">CGPA:8.28/10.00</span>
-                </div>
-                <div class="gap flex flexColumn">
-                    <span class="date">2018-2022 (expected)</span>
-                    <span class="degree">Bachelor of Technology in Mechanical Engineering</span>
-                    <span class="organisation">Indian Institute of Technology, Jodhpur</span>
-                    <span class="b1right">IIT Jodhpur is one of the premier technological institute of India committed
-                        to technological
-                        thought and action to benefit the economic development of India.</span>
-                    <span class="b1right">CGPA:8.28/10.00</span>
-                </div>
+            <div>
+                <h2 class="counter-numbers" data-number="1300">0+</h2>
+                <p>CodeChef Rating</p>
             </div>
-            <hr>
-            <div class="flex flexColumn">
-                <span id="page-3" class="eduhead">Skills</span>
-                <div class="flex skillswrap">
-                    <div class="flex skillsbox">
-                            <div class="projectname">WEB DEVELOPMENT</div>
-                            <p class="b1right projectdisc">ExpressJS, ReactJS, NodeJS, JWT, Redux, Mongo DB, HTML, CSS</p>
-                    </div>
-                    <div class="skillsbox flex ">
-                        <div class="projectname">DEEP LEARNING</div>
-                        <p class="b1right projectdisc">TensorFlow, Keras, Convolutional Neural Network</p>
-                    </div>
-                    <div class="skillsbox flex ">
-                        <div class="projectname">PROGRAMMING LANGUAGES</div>
-                        <p class="b1right projectdisc">C, C++, Python, JavaScript, MATLAB, Solidity</p>
-                    </div>
-                    <div class="skillsbox flex ">
-                        <div class="projectname">BLOCKCHAIN TECHNOLOGY</div>
-                        <p class="b1right projectdisc">Ganache, Truffle, Solidity, MetaMask, Web3js, Azure Blockchain</p>
-                    </div>
-                </div>
+            <div>
+                <h2 class="counter-numbers" data-number="1100">0+</h2>
+                <p>GFG Questions Solved</p>
             </div>
-            <hr>
-            <div class="flex flexColumn">
-                <span id="page-4" class="eduhead">Extra Curricular</span>
-                <div class="gap flex flexColumn">
-                    <span class="date">2020-2024 (expected)</span>
-                    <span class="degree">Bachelor of Engineering in Electrical Engineering</span>
-                    <span class="organisation">Mugneeram Bangur Memorial University, Jodhpur</span>
-                    <span class="b1right">IIT Jodhpur is one of the premier technological institute of India committed
-                        to technological
-                        thought and action to benefit the economic development of India.</span>
-                    <span class="b1right">CGPA:8.28/10.00</span>
-                </div>
-                <div class="gap flex flexColumn">
-                    <span class="date">2018-2020</span>
-                    <span class="degree">Higher Secondary Education</span>
-                    <span class="organisation">Central Board of Secondary Education (CBSE) curriculum was followed.
-                        Subjects taught were Maths, Physics, Chemistry, English.</span>
-                    <span class="b1right">Percntage : 82.2%</span>
-                </div>
+            <div>
+                <h2 class="counter-numbers" data-number="1000">0+</h2>
+                <p>Hackerrank Questions Solved</p>
             </div>
         </div>
     </section>
-    <section class="pro">Projects</section>
-    <section id="projectid" class="section3 flex">
-        <div class="project flex ">
-            <div class="projectname">SMART IRRIGATION SYSTEM</div>
-            <p class="projectdisc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dignissimos voluptas esse recusandae</p>
-            <div class="github">Github</div>
-        </div>
-        <div class="project flex ">
-            <div class="projectname">Project</div>
-            <p class="projectdisc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dignissimos voluptas esse recusandae</p>
-            <div class="github">Github</div>
-        </div>
-        <div class="project flex ">
-            <div class="projectname">Project</div>
-            <p class="projectdisc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dignissimos voluptas esse recusandae</p>
-            <div class="github">Github</div>
-        </div>
-        <div class="project flex ">
-            <div class="projectname">Project</div>
-            <p class="projectdisc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dignissimos voluptas esse recusandae</p>
-            <div class="github">Github</div>
-        </div>
-        <div class="project flex ">
-            <div class="projectname">Project</div>
-            <p class="projectdisc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam dignissimos voluptas esse recusandae</p>
-            <div class="github">Github</div>
-        </div>
+
+
+
+    <!-----------
+        Resume Section start
+     ------------->
+    <section class="section-services">
+        <div class="container flex">
+            <div class="leftside">
+                <ul class="flex flexColumn">
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Extra Curricular</a></li>
+                </ul>
+            </div>
+            <div class="rightside">
+                <div class="flex flexColumn">
+                    <h3 class="eduhead">Education</h3>
+                    <div class="flex flexColumn">
+                        <p class="date">2020-2024 (expected)</p>
+                        <span class="degree">Bachelor of Engineering in Electrical Engineering</span>
+                        <p class="organisation">Mugneeram Bangur Memorial University, Jodhpur</p>
+                        <p class="b1right">A State University established by the Government of Rajasthan in September,
+                            2021 by upgrading the erstwhile M.B.M. Engineering College which is one of the oldest
+                            engineering colleges in India (established in August, 1951). The university boasts of its
+                            high
+                            academic & technical standards.</p>
+                        <p class="percent">CGPA:8.28/10.00</p>
+                        <hr class="hr">
+                    </div>
+                    <div class="flex flexColumn">
+                        <p class="date">2018-2020</p>
+                        <p class="degree">Higher Secondary Education</p>
+                        <p class="organisation">Central Academy Jodhpur Cantt</p>
+                        <p class="b1right">Central Board of Secondary Education (CBSE) curriculum was followed. Subjects
+                            taught were Maths, Physics, Chemistry, English.</p>
+                        <p class="percent">Percentage : 82.2%</p>
+                        <hr class="hr">
+                    </div>
+                    <div class="flex flexColumn">
+                        <p class="date">Till 2018</p>
+                        <p class="degree">Secondary Education</p>
+                        <p class="organisation">Kendriya Vidyalaya BSF Jodhpur</p>
+                        <p class="b1right">Central Board of Secondary Education (CBSE) curriculum was followed.</p>
+                        <p class=" percent b1right">Percentage : 78.8%</p>
+                        <hr class="hr">
+                    </div>
+                </div>
+
+                <div class="flex flexColumn">
+                    <h3 class="eduhead">Experience</h3>
+                    <div class="flex flexColumn">
+                        <p class="date">June 2022 - July 2022</p>
+                        <span class="degree">DRDO Jodhpur | Reasearch Intern</span>
+                        <p class="organisation">"Study of Radar Designing of Patch Antenna"</p>
+                        <p class="b1right">• Worked on patch antenna fabrication- used for detecting frequency 9-11GHz
+                            <br> • Studied Radar- Types ofradars , frequenceis etc. <br> • Studied VNA - analysed the
+                            range patch antenna works on <br>• Made block diagram - power supply - Darla Complex, DRDO
+                        </p>
+                        <hr class="hr">
+                    </div>
+                    <div class="flex flexColumn">
+                        <p class="date">April 2022 - Present</p>
+                        <span class="degree">Training and Placement Cell</span>
+                        <p class="organisation">Core Member, Training and Placement Cell, MBM University</p>
+                        <p class="b1right">Training and Placement Cell aims to create an encouraging atmosphere for
+                            students by providing them Internships or Placements and ample reminders to build
+                            competencies in sync with their dream career , thereby ensuring their smooth landing in the
+                            professional world.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <!------------------------------
+                    Skills offers card
+                    ------------------------------->
+                <div>
+                    <h3 class="eduhead">Skills</h3>
+                    <div class="container grid grid-three-column">
+                        <div class="service-box">
+                            <h3>Web Deleopment</h3>
+                            <img class="service-icon" src="images/webdev.png" alt="insta_icon">
+                            <p>ExpressJS, ReactJS, NodeJS, JWT, Redux, Mongo DB, HTML, CSS</p>
+                        </div>
+
+                        <div class="service-box">
+                            <h3>Deep Learning</h3>
+                            <img class="service-icon" src="images/deeplearning.png" alt="insta_icon">
+                            <p>TensorFlow, Keras, Convolutional Neural Network</p>
+                        </div>
+
+                        <div class="service-box">
+                            <h3>Programing Languages</h3>
+                            <img class="service-icon" src="images/coding.png" alt="insta_icon">
+                            <p>C, C++, Python, JavaScript, MATLAB, Solidity</p>
+                        </div>
+
+                        <div class="service-box">
+                            <h3>Blockchain Technology</h3>
+                            <img class="service-icon" src="images/blockchain.png" alt="insta_icon">
+                            <p>Ganache, Truffle, Solidity, MetaMask, Web3js, Azure Blockchain</p>
+                        </div>
+                    </div>
+                    <hr class="hr">
+                </div>
+                <div class="flex flexColumn">
+                    <h3 class="eduhead">Extra Curricular</h3>
+                    <div class="flex flexColumn">
+                        <p class="organisation">• Member of Football and Badminton club at M.B.M University. <br> •
+                            Active member of coding clubs (GDSC & Codechef chapter)</p>
+                    </div>
+                    <hr class="hr">
+                </div>
+            </div>
     </section>
-    <footer class="flex">
-        <div class="justify-column">
-            <div class="foothead">Social</div>
-            <div class="footcont  footdiv">Reach me out at any of my social media profiles</div>
-            <div class=" footdiv"><a class="footcont" href="https://www.linkedin.com/in/mohit-phuldaliya-58aba7217?"
-                    target="_blank"><img class="icon" src="img/linkedin.png" alt=""></a>
-                <a class="footcont" href="https://www.instagram.com/phuldaliya_mohit/?hl=en" target="_blank"><img
-                        class="icon" src="img/instagram.png" alt=""></a>
+
+    <!-----------
+        portfolio Section start
+     ------------->
+    <sction class="section-portfoilio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Projects</h2>
+            <!-- <p>These are my Skills</p> -->
+        </div>
+
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Full Stack</div>
+            <div class="btn p-btn" data-btn-num="1">Frontend</div>
+            <!-- need to learn about data attribute DOM -->
+            <div class="btn p-btn" data-btn-num="2">Backend</div>
+            <!-- need to learn about data attribute DOM -->
+            <div class="btn p-btn" data-btn-num="2">React.js</div>
+            <div class="btn p-btn" data-btn-num="3">Node.js</div>
+            <!-- <div class="btn p-btn" data-btn-num="3">Coding</div> -->
+        </div>
+
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1">
+                <img src="images/programming.jpg" alt="my work">
+                <div class="overlay">
+                    <a href="https://mohit-phuldaliya.github.io/portfolio.github.io/" target="_blank"
+                        class="common-heading">Project 1</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/programming.jpg" alt="my work">
+                <div class="overlay">
+                    <a href="https://mohit-phuldaliya.github.io/portfolio.github.io/" target="_blank"
+                        class="common-heading">Project 2</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/programming.jpg" alt="my work">
+                <div class="overlay">
+                    <a href="https://mohit-phuldaliya.github.io/portfolio.github.io/" target="_blank"
+                        class="common-heading">Project 3</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1  p-btn--2">
+                <img src="images/programming.jpg" alt="my work">
+                <div class="overlay">
+                    <a href="https://mohit-phuldaliya.github.io/portfolio.github.io/" target="_blank"
+                        class="common-heading">Project 4</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--2">
+                <img src="images/programming.jpg" alt="my work">
+                <div class="overlay">
+                    <a href="https://mohit-phuldaliya.github.io/portfolio.github.io/" target="_blank"
+                        class="common-heading">Project 5</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/programming.jpg" alt="my work">
+                <div class="overlay">
+                    <a href="https://mohit-phuldaliya.github.io/portfolio.github.io/" target="_blank"
+                        class="common-heading">Project 6</a>
+                </div>
+            </div>
+
+        </div>
+    </sction>
+
+
+    <!-----------
+     Our Services Section start
+    ------------->
+    <!-- 
+    <sction class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptas odio eum nihil vero perspiciatis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed dignissimos facere animi culpa ea.
+            </p>
+        </div> -->
+
+    <!------------------------------
+    services offers card
+    ------------------------------->
+    <!-- <div class="container grid grid-three-column">
+            <div class="service-box">
+                <img class="service-icon" src="images/instagram.png" alt="insta_icon">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus molestias magni placeat
+                    quia doloribus, eligendi dolorum quos tenetur corporis?</p>
+            </div>
+
+            <div class="service-box">
+                <img class="service-icon" src="images/instagram.png" alt="insta_icon">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus molestias magni placeat
+                    quia doloribus, eligendi dolorum quos tenetur corporis?</p>
+            </div>
+
+            <div class="service-box">
+                <img class="service-icon" src="images/instagram.png" alt="insta_icon">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus molestias magni placeat
+                    quia doloribus, eligendi dolorum quos tenetur corporis?</p>
+            </div>
+
+            <div class="service-box">
+                <img class="service-icon" src="images/instagram.png" alt="insta_icon">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus molestias magni placeat
+                    quia doloribus, eligendi dolorum quos tenetur corporis?</p>
+            </div>
+
+            <div class="service-box">
+                <img class="service-icon" src="images/instagram.png" alt="insta_icon">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus molestias magni placeat
+                    quia doloribus, eligendi dolorum quos tenetur corporis?</p>
+            </div>
+
+            <div class="service-box">
+                <img class="service-icon" src="images/instagram.png" alt="insta_icon">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus molestias magni placeat
+                    quia doloribus, eligendi dolorum quos tenetur corporis?</p>
             </div>
         </div>
-        <div class="justify-column">
-            <div class="foothead">Have a Question?</div>
-            <div class="footcont footdiv"> <img class="icon2" src="img/location.png" alt=""> MBM University Ratanda, Jodhpur
-                District, India</div>
-            <div class=" footdiv"><a href="tel:+91-6378669887" class="footcont"><img class="icon2" src="img/call.png"
-                        alt="">+91-6378669887</a></div>
-            <div class=" footdiv"><a class="footcont" href="mailto:phuldaliyamohit@gmail.com" target="_blank"><img
-                        class="icon2" src="img/mail.png" alt="">phuldaliyamohit@gmail.com</a></div>
+    </sction> -->
+
+    <!------------------------------
+  Freelancing section start
+------------------------------->
+
+    <section class="section-freelancing">
+        <!-- <div class="overlay"></div> -->
+        <div class="container">
+            <h2>I am <span>available</span> for <span>Internship</span></h2>
+            <p>I am available for Full Time, Part Time, Remote or Onsite Internships</p>
+            <a href="/contact.html" class="btn">hire me</a>
+        </div>
+    </section>
+    <!------------------------------
+ Contact section start
+------------------------------->
+    <section class="section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <form action="">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" placeholder="Username" id="username">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="@email" id="email">
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="subject" id="subject">
+                </div>
+                <div><label for="textarea"></label>
+                    <textarea name="textarea" placeholder="Write your message here" id="textarea" cols="30"
+                        rows="10"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="Send Email">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!------------------------------
+ Our footer section start
+------------------------------->
+    <footer class="section-footer">
+        <div class="container grid grid-three-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>Reach me out at any of my social media profiles</p>
+                <div class=""><a class="" href="https://www.linkedin.com/in/mohit-phuldaliya-58aba7217?"
+                        target="_blank"><img class="foot-icon" src="/images/linkedin.png" alt=""></a>
+                    <a class="" href="https://www.instagram.com/phuldaliya_mohit/?hl=en" target="_blank"><img
+                            class="foot-icon" src="/images/instagram.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#"><img class="icon2" src="/images/right-arrow.png" alt="">Home</a></li>
+                    <li><a href="#"><img class="icon2" src="/images/right-arrow.png" alt="">About</a></li>
+                    <li><a href="#"><img class="icon2" src="/images/right-arrow.png" alt="">Resume</a></li>
+                    <li><a href="#"><img class="icon2" src="/images/right-arrow.png" alt="">Projects</a></li>
+                    <li><a href="#"><img class="icon2" src="/images/right-arrow.png" alt="">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="f-address">
+                <h3>Have a Question?</h3>
+                <address>
+                    <div>
+                        <p><img class="icon2" src="/images/location.png" alt="">MBM University Ratanda, Jodhpur
+                            District, India</p>
+                    </div>
+                    <div>
+                        <p><a href="tel:+91-6378669887" class="footcont"><img class="icon2" src="/images/call.png"
+                                    alt="">+91-6378669887</a></p>
+                    </div>
+                    <div>
+                        <p><a class="footcont" href="mailto:phuldaliyamohit@gmail.com" target="_blank"><img
+                                    class="icon2" src="/images/mail.png" alt="">phuldaliyamohit@gmail.com</a></p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-credits">
+                <p>Copyright &#169; 2022 All rights reserved | This Portfolio is made by Mohit Phuldaliya 😎 </p>
+            </div>
         </div>
     </footer>
+<!-- same created in js file -->
+    <div class="scrollTop-style">
+        <img src="/images/up-arrows.png"   class="scroll-top" alt="">
+    </div>
 </body>
 
 </html>
